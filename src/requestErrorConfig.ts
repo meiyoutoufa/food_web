@@ -92,7 +92,7 @@ export const errorConfig: RequestConfig = {
       // 拦截请求配置，进行个性化处理。
       //const url = config?.url?.concat('?token = 123');
       console.log(config.url)
-      config.baseURL = "http://120.78.171.211"
+      config.baseURL = "https://120.78.171.211"
       const token = localStorage.getItem(STORAGE_KEYS.TOKEN);
       if (token){
           //config.headers!['Authorization'] = `Bearer ${token}`
